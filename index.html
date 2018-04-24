@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Angela, Xie, Zhongmin, Angela Xie, Zhongmin Xie, CMU, Carnegie Mellon University, HCI, Human-Computer Interaction, design, websites, freelance, web design, web, web development, AI design, mobile design, art" name="Keywords" />
+    <title>Angela Xie | Experience Designer</title>
+
+    <!-- Bootstrap 3 -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- my css -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto|Tajawal" rel="stylesheet">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- my Javascript -->
+    <script src="js/main.js"></script>
+    <!-- load and instantiate ScrollReveal first -->
+    <script src="js/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal({ reset: false });
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav id="mynavbar" class="navbar navbar-expand-md navbar-light nav-down1">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="./index.html">WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./art.html">ART</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./img/resume.pdf" target="_blank">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:zhongmix@andrew.cmu.edu">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <section id="index-intro">
+            <div class="row">
+                <div id="intro-text" class="col-sm-8">
+                    <h1 id="myname">Angela Xie</h1>
+                    <p>Hi, I'm Angela, studying HCI and Psychology at Carnegie Mellon University. I am skilled in mobile/UI/web design, and interested in enhancing people’s experiences through technology.</p>
+                </div>
+            </div>
+            <button id="btn-welcome" class="btn btn-lg"> <a href="#index-work">View Work </a></button>
+        </section>
+
+        <div id="index-work">
+            <hr>
+           <!--  Project 1: Lori -->
+            <section id="index-lori">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <img class="index-cover" src="img/lori/index_cover.png">
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>User Research, UX Design, Prototyping</h3>
+                        <h2>Lori - The UX of AI</h2>
+                        <p>How can AI be a bridge between humans and their household plants?</p>
+                        <a href="lori.html"><button class="btn"> I talk to my succulent </button></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--  Project 2: Airbnb Redesign -->
+            <section id="index-airbnb">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <img class="index-cover" src="img/airbnb/index_cover.png">
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>User Research, UX Design, Prototyping</h3>
+                        <h2>Airbnb Redesign</h2>
+                        <p>Taking a closer look at the Experience feature on the mobile platform.</p>
+                        <button class="btn"><a href="airbnb.html">Let's get local </a> </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="index-footer">
+            <h1>Let’s talk!</h1>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>I try to get trained on all sections along the spectrum of design, and explore the intersections between human and technology. Specifically, I am interested in people's visual and digital experiences, and often question myself "how can technology be part of the enhancement of our daily lives, from micro to macro?"</p>
+                    <br>
+<!--                     <p>If you are interested, here is a cheesy story of how I became a designer from an engineer background, and some fun facts about me.</p> -->
+                </div>
+                <div class="col-sm-4">
+                    <img id="profilepic-index" src="img/angela.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <p id="footer-endtext">© 2018 Made with love &amp; care by Angela Xie </p>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+        sr.reveal('#index-intro', { duration: 2000 });
+        sr.reveal('.row', { duration: 1000 });
+    </script>
+</body>
+
+</html>

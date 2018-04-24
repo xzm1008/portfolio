@@ -1,0 +1,519 @@
+/*General, apply to all pages*/
+* {
+/*    background-color: #FAFAFA;*/
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*text*/
+h1{
+    font-family:'Playfair Display', 'Georgia', serif;
+    font-size: 6em;
+    font-weight: 700;
+    margin-bottom: 5%;
+    letter-spacing: 3px;
+}
+
+h2{
+    font-family:'Playfair Display', 'Georgia', serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 5%;
+}
+
+h3{
+    font-size: 0.9em;
+    color: lightgray;
+}
+
+p {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 0.9em;
+    color: #5F5F5F;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #DC988D;
+
+}
+
+body {
+    padding-top: 40px;
+
+}
+
+
+/*button*/
+button {
+    height: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #252525;
+    color: white;
+    font-size: 1.1em;
+    box-shadow: 0 24px 46px -16px #CABCBC;
+    z-index: 5;
+
+}
+
+
+.btn,.btn::after{
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    z-index: 10;
+    border-radius: 30px;
+    padding: 0px 30px;
+
+}
+
+
+button:hover.btn:hover {
+    color: white;
+    box-shadow: 0 15px 30px -10px #928181;
+    z-index: 10;
+}
+
+.btn:active,
+.btn:focus,
+button:focus,
+button:active{
+    background-image: none !important;
+    outline: 0 !important;
+    color: white;
+    z-index: 10;
+}
+
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*navbar*/
+nav {
+    background: white;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 2px 10px 0px #E7E7E7 ;
+}
+
+.navbar {
+    position: fixed;
+}
+
+.nav-up1 {
+    top: -75px;
+}
+
+.navbar-nav {
+    margin: 5%;
+}
+
+.navbar-nav>li>a {
+    font-family:'Playfair Display', 'Georgia', serif;
+    font-size: 0.8em;
+    letter-spacing: 1.2px;
+    color: #a9abb2;
+    font-weight: 700;
+}
+
+.navbar-nav>li {
+    padding: 2%;
+}
+
+.nav-item {
+    margin: 0px 20px;
+}
+
+
+li.nav-item.active{
+  color:red;
+}
+
+
+/*index page*/
+
+/*Intro Texts*/
+#index-intro {
+    height: 100vh;
+    padding: 10%;
+    padding-top: 20%;
+}
+
+
+#index-intro p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #5F5F5F;
+    line-height: 200%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.index-cover {
+    width: 80%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+
+/*Index - Work display section*/
+
+
+#index-work p {
+    font-size: 1.2em;
+    line-height: 150%;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 12%
+}
+
+#index-work .row{
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+/*Index - footer*/
+
+#index-footer {
+    padding: 8%;
+    padding-bottom: 3%;
+    background-color: #DC988D;
+}
+
+#index-footer h1{
+    background-color: transparent;
+    color: #FAFAFA;
+    font-family:'Playfair Display', 'Georgia', serif;
+    font-size: 5em;
+    font-weight: 700;
+    margin-bottom: 5%;
+    letter-spacing: 3px;
+}
+
+#index-footer  p {
+    background-color: transparent;
+    color: #FAFAFA;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#footer-endtext {
+    font-size: 12px;
+    float: none;
+    margin: 0 auto;
+
+}
+#profilepic-index {
+    max-width:80%;
+    margin-left: 30%;
+    border-radius: 50%;
+}
+
+#btn-welcome {
+    border-radius: 30px;
+    height: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: white;
+    border: 4px solid #DC988D;
+
+}
+
+#btn-welcome a{
+    margin: auto auto;
+    font-size: 0.9em;
+    color: #DC988D;
+    font-weight: 700;
+    font-family:'Playfair Display', 'Georgia', serif;
+}
+
+
+footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer p {
+    color: #868686;
+}
+
+
+/*Individual project pages*/
+.splash {
+    height: 100vh;
+/*    background-color: #C9D5B0*/
+}
+
+
+.img-splash-object {
+    width: 100%;
+    align-self: center;
+    height: auto;
+}
+
+.project-content {
+    position: relative;
+    margin-top: 10%;
+    padding-top: 5%;
+}
+
+.main-small {
+    padding-left: 25%;
+    padding-right: 22%;
+}
+
+/*work-sidenav*/
+.sidenav-container {
+    position: absolute;
+    z-index: 1;
+    max-width: 30%;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+
+.sidenav {
+    height: 250;
+    /* position: fixed; */
+    z-index: 1;
+    top: 75px;
+    left: 0;
+    background-color: none;
+    overflow-x: hidden;
+    /* padding-top: 20px; */
+
+}
+
+.sidenav a {
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #818181;
+    display: block;
+    font-family:'Playfair Display', 'Georgia', serif;
+}
+
+.sidenav a:hover {
+    color: #DC988D;
+}
+
+.sidenav a.active {
+  font-weight: 700;
+  color:#4A4A4A;
+}
+
+#sidebar-fixed{
+  position: fixed;
+  display: none;
+  margin-top: -800px;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+
+
+.work-section {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.work-section p {
+    font-family: 'Roboto', sans-serif;
+    color: #868686;
+    font-size: 0.8em;
+    line-height: 180%;
+}
+
+.work-section h4 {
+    font-weight: 700;
+    color: #4A4A4A;
+    font-family:'Playfair Display', 'Georgia', serif;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    font-size: 1.4em;
+    line-height: 150%;
+}
+
+.img-content {
+    width: 100%;
+    height: 100%;
+}
+
+.img-content2 {
+    width: 100%;
+    height: 100%;
+}
+
+.prototype-container {
+    padding: 3% 40%;
+    background-color: #F4F4F4;
+}
+
+.prototype-container2 {
+    padding: 3% 20%;
+}
+
+.main-small .col-sm-8 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-small .col-sm-4 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-small .col-sm-6 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.row .col-sm-6 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.main-small a {
+    color: black;
+}
+
+
+.main-small a:hover {
+    color: #DC988D;
+}
+
+
+.main-small p {
+    font-family: 'Roboto', sans-serif;
+    color: #868686;
+    font-size: 0.8em;
+    line-height: 180%;
+}
+
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.next-work {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.next-work a {
+    font-weight: 700;
+    color: #4A4A4A;
+    font-family:'Playfair Display', 'Georgia', serif;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 1.4em;
+}
+/*for lori specific*/
+
+#lori-splash {
+/*    background-color: #E5F1CB;*/
+}
+
+.lori h6 {
+    color:#6A935A;
+    font-weight: 700;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 0.7em;
+}
+
+.lori .img-content {
+    width: 80%;
+    height: 100%;
+    margin-left: 13%;
+}
+
+#lori-product {
+    background-color: #FAFAFA;
+}
+
+#lori-walkthrough {
+    background-color: #EFF5E8;
+}
+
+#lori-goal {
+    background-color: #FAFAFA;
+}
+
+.demo-row {
+    margin-top: 20px;
+}
+
+
+/*for airbnb redesign specific*/
+.airbnb h6 {
+    color:#008085;
+    font-weight: 700;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 0.7em;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.graybg {
+    background-color: #F4F4F4;
+    padding-bottom: 6%;
+}
+
+
+/*for art page specific*/
+
+/*.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+
+*/
+/* css test */
+
+/*#myname {
+    visibility: hidden;
+}*/
+
+
