@@ -22,6 +22,13 @@
     <script src="js/main.js"></script>
     <!-- load and instantiate ScrollReveal first -->
     <script src="js/scrollreveal.min.js"></script>
+
+    <!-- p5 library -->
+    <script src="js/p5.min.js"></script>
+    <script src="js/p5.play.js"></script>
+    <script src="js/addons/p5.dom.min.js"></script>
+    <script src="js/addons/p5.sound.min.js"></script>
+    <script src="js/sketch.js"></script>
     <script>
         window.sr = ScrollReveal({ reset: false });
     </script>
@@ -53,17 +60,19 @@
         </nav>
 
 
-        <section id="index-intro">
-            <div class="row">
-                <div id="intro-text" class="col-sm-8">
-                    <h1 id="myname">Angela Xie</h1>
-                    <p>Hi, I'm Angela, studying HCI and Psychology at Carnegie Mellon University. I am skilled in mobile/UI/web design, and interested in enhancing people’s experiences through technology. <br>
-                    Incoming UX design intern at Google. :D
-                    </p>
+        <div id="sketch-holder">
+            <section id="index-intro">
+                <div class="row">
+                    <div id="intro-text" class="col-sm-8">
+                        <h1 id="myname">Angela Xie</h1>
+                        <p>Hi, I'm Angela, studying HCI and Psychology at Carnegie Mellon University. I am skilled in mobile/UI/web design, and interested in enhancing people’s experiences through technology. <br>
+                        Incoming UX design intern at Google. :D
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <button id="btn-welcome" class="btn btn-lg"> <a href="#index-work">View Work </a></button>
-        </section>
+                <button id="btn-welcome" class="btn btn-lg"> <a href="#index-work">View Work </a></button>
+            </section>
+        </div>
 
         <div id="index-work">
             <hr>
